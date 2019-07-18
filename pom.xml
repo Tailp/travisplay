@@ -28,5 +28,19 @@
   </dependency>
   </dependencies>
   <build>
+    <plugins>
+        <plugin>
+          <groupId>eu.stamp-project</groupId>
+          <artifactId>dspot-maven</artifactId>
+          <version>2.1.0</version>
+          <configuration>
+            project=.
+            targetModule=.
+            src=src/main/java
+            testSrc=src/test/java
+            javaVersion=8
+          </configuration>
+        </plugin>
+    </plugins>
   </build>
 </project>
