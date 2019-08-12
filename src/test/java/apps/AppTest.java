@@ -7,7 +7,7 @@ import org.junit.Assert.*;
 
 public class AppTest {
 
-    private String INPUT = "123456";
+    private String INPUT = "12346";
 
     @Test
     public void testLength() {
